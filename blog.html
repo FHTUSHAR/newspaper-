@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News24x7 </title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body class="container">
+    <!-- navbar section start -->
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-bg-primary p-2" href="#">News 24 x 7</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+                    <div class="d-flex" role="search">
+                        <a class="nav-link me-3 " href="index.html">News</a>
+                        <a class="nav-link text-primary" href="#">Blogs</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar section end -->
+
+    <main>
+        <div class="card mb-3 m-auto w-sm-25 w-75">
+            <div class="card-body">
+                <h5 class="card-title">What is the difference between var ,let ,const ?</h5>
+                <p class="card-text"><span class="fw-bold">Ans :</span>Var declarations are globally scoped or function
+                    scoped while let and const
+                    are
+                    block scoped. var variables can be updated and re-declared within its scope; let variables can be
+                    updated but not re-declared; const variables can neither be updated nor re-declared. They are all
+                    hoisted to the top of their scope</p>
+
+            </div>
+        </div>
+        <div class="card mb-3 m-auto  w-sm-25 w-75">
+            <div class="card-body">
+                <h5 class="card-title">What is the difference between arrow function and regular function?</h5>
+                <p class="card-text"> <span class="fw-bold">Ans :</span>Regular functions created using function
+                    declarations or expressions are
+                    constructible and callable. Since regular functions are constructible, they can be called using the
+                    new keyword. However, the arrow functions are only callable and not constructible, i.e arrow
+                    functions can never be used as constructor functions.</p>
+
+            </div>
+        </div>
+        <div class="card mb-3 m-auto  w-sm-25 w-75">
+            <div class="card-body">
+                <h5 class="card-title">What is the difference between map() ,for Each(), filter(),find() in js ?</h5>
+                <p class="card-text"> <span class="fw-bold">Ans :</span>The main difference between forEach and filter
+                    is that forEach just loop
+                    over the
+                    array and executes the callback but filter executes the callback and check its return value. If the
+                    value is true element remains in the resulting array but if the return value is false the element
+                    will be removed for the resulting array.Find do not return value.</p>
+
+            </div>
+        </div>
+        <div class="card mb-3 m-auto  w-sm-25 w-75">
+            <div class="card-body">
+                <h5 class="card-title">Why we use templete string ?</h5>
+                <p class="card-text"> <span class="fw-bold">Ans :</span>Template literals are sometimes informally
+                    called template strings, because
+                    they
+                    are used most commonly for string interpolation (to create strings by doing substitution of
+                    placeholders</p>
+
+            </div>
+        </div>
+
+
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/news.js"></script>
+</body>
+
+</html>
